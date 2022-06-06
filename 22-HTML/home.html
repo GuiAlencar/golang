@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Go</title>
+        <meta charset="utf-8">
+        <style>
+            h2{
+                color: red
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Página Inicial</h2>
+        <button id="botao">Clique em mim</button>
+        <!-- <marquee><h4>Seja bem vindo, {{.Nome}}</h4></marquee> -->
+
+        <script>
+            var botao = document.getElementById("botao");
+            botao.onclick = function(){
+                alert("Botão clicado com sucesso")
+            }
+        </script>
+    </body>
+</html>
